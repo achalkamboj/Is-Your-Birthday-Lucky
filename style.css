@@ -1,0 +1,59 @@
+:root{
+    --primary-color : darkmagenta;
+}
+
+body{
+    background-color: #e4d33b;
+    padding: 0rem;
+}
+.container{
+    margin: auto;
+    text-align: center;
+    padding: 5rem;
+    font-family: monospace;
+}
+
+h1{
+    color: var(--primary-color);
+    padding: 2rem;
+    border-color: var(--primary-color);
+    border-radius: 0.2rem;
+}
+
+#date-of-birth{
+    color:var(--primary-color);
+    display: block;
+    padding: 0.2rem;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+
+#check-number{
+    padding: 0.3rem;
+    display: block;
+    border-radius: 0.3rem;
+    border-color: white;
+    background-color: var(--primary-color);
+    border-width: 0.2rem;
+    color: white;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+#lucky-number{
+    color:var(--primary-color);
+    display: block;
+    padding: 0.2rem;
+    margin: 1rem;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+#output-box{
+    margin: auto;
+    color: var(--primary-color);
+    display: block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
