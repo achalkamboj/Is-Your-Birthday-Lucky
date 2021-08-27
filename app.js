@@ -8,12 +8,12 @@ function checkLuck(){
     const sum = calculateSum(dob);
     if(sum&&dob){
     if(sum%luckyNumber.value===0)
-        outputBox.innerText="Congratulations...Your Birthday Is Lucky!";
+        outputBox.innerText="Congratulations...Your Birthday Is Lucky!🔥🔥";
     else
-        outputBox.innerText="Luck is just a parameter to measure hard work!";
+        outputBox.innerText="Luck is just a parameter to measure hard work!✨✨";
     }
     else{
-        outputBox.innerText="Please enter both the fields";
+        outputBox.innerText="Please enter both the fields😞";
     }
 }
 
